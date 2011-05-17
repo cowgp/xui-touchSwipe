@@ -1,0 +1,25 @@
+Port of TouchSwipe JQuery plugin to be used with XUI instead of JQuery.
+
+Info on TouchSwipe can be found here:
+http://labs.skinkers.com/touchSwipe/
+
+Documentation on options for TouchSwipe on it's website remain relevant so please refer there.
+
+
+example implementation:
+----------------------------------------------
+function init ()
+{
+	var swipeOptions=
+	       {
+	           swipeStatus:swipeStatus,
+	           swipeLeft:slidePagesLeft,
+	           swipeRight:slidePagesRight,
+	           triggerOnTouchEnd:true,
+	           threshold:75,
+	           allowPageScroll:"auto"
+	       };
+
+	x$(".mainContent").swipe( swipeOptions );
+	
+}
