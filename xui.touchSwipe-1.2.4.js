@@ -1,10 +1,23 @@
 /*
+ * touchSwipe - XUI Plugin
+ * Ported by Scott Bates
+ * Uncorked Studios
+ * http://www.uncorkedstudios.com
+ *
+ * 2011-05-17
+ * Initial release of XUI plugin based off of TouchSwipe version 1.2.4
+ * MIT License of original plugin is maintained
+ *
+ *
+ * originally created by:
+ * ----------------------------------------------------------
  * touchSwipe - jQuery Plugin
  * http://plugins.jquery.com/project/touchSwipe
  * http://labs.skinkers.com/touchSwipe/
  *
  * Copyright (c) 2010 Matt Bryson (www.skinkers.com)
  * Dual licensed under the MIT or GPL Version 2 licenses.
+ * ----------------------------------------------------------
  *
  * $version: 1.2.3
  *
